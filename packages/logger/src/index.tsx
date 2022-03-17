@@ -1,5 +1,6 @@
-function log(...content: any[]): void {
-  console.log(...content);
+function log(...content: any[]) {
+  // console.log(...content);
+  return content;
 }
 
 export default log;
